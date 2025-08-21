@@ -1,0 +1,2 @@
+verilator --binary test.sv tb.sv --top tb
+./obj_dir/Vtb
