@@ -4,4 +4,4 @@ verilator --binary test.sv tb.sv --top tb
 // Run 
 ./obj_dir/Vtb
 
-// 
+// VỚi mỗi máy thì cần phải build lại rồi mới run code được 
