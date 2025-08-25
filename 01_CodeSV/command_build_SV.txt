@@ -6,3 +6,5 @@ verilator --binary <ten file.sv> --top <ten module trong file.sv>
 ./obj_dir/Vtb
 
 // VỚi mỗi máy thì cần phải build lại rồi mới run code được 
+
+// New commit from Win dow
