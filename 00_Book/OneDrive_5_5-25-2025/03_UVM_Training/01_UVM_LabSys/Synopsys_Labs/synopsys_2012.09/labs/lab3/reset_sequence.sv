@@ -1,0 +1,51 @@
+`ifndef RESET_SEQUENCE__SV
+`define RESET_SEQUENCE__SV
+
+class reset_tr extends uvm_sequence_item;
+  typedef enum {ASSERT, DEASSERT} kind_e;
+  rand kind_e kind;
+  rand int unsigned cycles = 1;
+
+  `uvm_object_utils_begin(reset_tr)
+    `uvm_field_enum(kind_e, kind, UVM_ALL_ON)
+    `uvm_field_int(cycles, UVM_ALL_ON)
+  `uvm_object_utils_end
+
+  function new(string name = "reset_tr");
+    super.new(name);
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+  endfunction: new
+endclass
+
+class reset_sequence extends uvm_sequence#(reset_tr);
+  `uvm_object_utils(reset_sequence)
+
+  function new(string name = "reset_sequence");
+    super.new(name);
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+  endfunction
+
+  virtual task pre_start();
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+    if ((get_parent_sequence() == null) && (starting_phase != null)) begin
+      starting_phase.raise_objection(this);
+    end
+  endtask
+
+  virtual task body();
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+
+    // For this lab, the only thing that the reset sequence will do is print a
+    // message.  In the next lab, you will be adding functionality here.
+    `uvm_info("RESET", "Executing Reset", UVM_MEDIUM);
+  endtask
+
+  virtual task post_start();
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+    if ((get_parent_sequence() == null) && (starting_phase != null)) begin
+      starting_phase.drop_objection(this);
+    end
+  endtask
+endclass
+
+`endif

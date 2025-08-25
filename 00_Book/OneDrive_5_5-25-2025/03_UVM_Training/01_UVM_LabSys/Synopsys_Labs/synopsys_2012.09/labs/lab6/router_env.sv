@@ -1,0 +1,148 @@
+`ifndef ROUTER_ENV__SV
+`define ROUTER_ENV__SV
+
+`include "input_agent.sv"
+`include "reset_agent.sv"
+`include "driver_reset_sequence.sv"
+`include "output_agent.sv"
+`include "ms_scoreboard.sv"
+
+// Lab 6 - Task 2, Step 2
+//
+// Include the virtual reset sequence file.
+//
+// `include "virtual_reset_sequence.sv"
+//
+// ToDo
+
+
+
+class router_env extends uvm_env;
+  reset_agent r_agent;
+  input_agent i_agent[16];
+  output_agent o_agent[16];
+  scoreboard sb;
+
+  // Lab 6 - Task 2, Step 3
+  //
+  // Declare a virtual_reset_sequencer handle called v_reset_seqr
+  //
+  // virtual_reset_sequencer  v_reset_seqr;
+  //
+  // ToDo
+
+
+
+  `uvm_component_utils(router_env)
+
+  function new(string name, uvm_component parent);
+    super.new(name, parent);
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+  endfunction
+
+  virtual function void build_phase(uvm_phase phase);
+    super.build_phase(phase);
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+
+    // Lab 6 - Task 2, Step 4
+    //
+    // Construct the virtual sequencer.
+    //
+    // v_reset_seqr = virtual_reset_sequencer::type_id::create("v_reset_seqr", this);
+    //
+    // ToDo
+
+
+
+    r_agent = reset_agent::type_id::create("r_agent", this);
+
+    // Lab 6 - Task 2, Step 5
+    //
+    // In the following existing statement, change the r_agent's sequencer to do nothing at the reset phase by setting "default_sequence"
+    // to null.
+    //
+    // uvm_config_db #(uvm_object_wrapper)::set(this, "r_agent.seqr.reset_phase", "default_sequence", null);
+    //
+    // The reset sequence execution will be done through the virtual reset sequence in step 7.
+    //
+    // ToDo
+    uvm_config_db #(uvm_object_wrapper)::set(this, "r_agent.seqr.reset_phase", "default_sequence", reset_sequence::get_type());
+
+
+
+    foreach (i_agent[i]) begin
+      i_agent[i] = input_agent::type_id::create($sformatf("i_agent[%0d]", i), this);
+      uvm_config_db #(int)::set(this, i_agent[i].get_name(), "port_id", i);
+      uvm_config_db #(uvm_object_wrapper)::set(this, {i_agent[i].get_name(), ".", "seqr.main_phase"}, "default_sequence", packet_sequence::get_type());
+
+      // Lab 6 - Task 2, Step 6
+      //
+      // In the following existing statement, change the i_agent's sequencer to do nothing at the reset phase by setting "default_sequence"
+      // to null.
+      //
+      // uvm_config_db #(uvm_object_wrapper)::set(this, {i_agent[i].get_name(), ".", "seqr.reset_phase"}, "default_sequence", null);
+      //
+      // The reset sequence execution will be done through the virtual reset sequence in step 7.
+      //
+      // ToDo
+      uvm_config_db #(uvm_object_wrapper)::set(this, {i_agent[i].get_name(), ".", "seqr.reset_phase"}, "default_sequence", driver_reset_sequence::get_type());
+
+
+
+
+    end
+
+    // Lab 6 - Task 2, Step 7
+    //
+    // To execute the virtual reset sequence, configure the virtual sequencer to execute the virtual reset sequence at the reset phase.
+    //
+    // uvm_config_db #(uvm_object_wrapper)::set(this, "v_reset_seqr.reset_phase", "default_sequence", virtual_reset_sequence::get_type());
+    //
+    // ToDo
+
+
+
+    sb = scoreboard::type_id::create("sb", this);
+
+    foreach (o_agent[i]) begin
+      o_agent[i] = output_agent::type_id::create($sformatf("o_agent[%0d]", i), this);
+      uvm_config_db #(int)::set(this, o_agent[i].get_name(), "port_id", i);
+    end
+
+  endfunction
+
+  virtual function void connect_phase(uvm_phase phase);
+    `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+    foreach (i_agent[i]) begin
+      i_agent[i].analysis_port.connect(sb.before_export);
+
+      // Lab 6 - Task 2, Step 8
+      //
+      // Push each input agent's sequencer onto the virtual sequencer's pkt_seqr queue.
+      //
+      // v_reset_seqr.pkt_seqr.push_back(i_agent[i].seqr);
+      //
+      // ToDo
+
+
+
+    end
+    foreach (o_agent[i]) begin
+      o_agent[i].analysis_port.connect(sb.after_export);
+    end
+
+    // Lab 6 - Task 2, Step 9
+    //
+    // Set the virtual sequencer's r_seqr handle to reference the reset agent's sequencer.
+    //
+    // v_reset_seqr.r_seqr = this.r_agent.seqr;
+    //
+    // ToDo
+
+
+
+  endfunction
+
+endclass
+
+`endif

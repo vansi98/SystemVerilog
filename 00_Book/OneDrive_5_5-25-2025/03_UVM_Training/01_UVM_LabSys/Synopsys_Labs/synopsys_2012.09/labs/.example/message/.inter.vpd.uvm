@@ -1,0 +1,136 @@
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type logic signed[4095:0]) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type int) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common' (id=55) Starting phase
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common' (id=55) Completed phase
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.build' (id=73) Scheduled from phase common
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.build' (id=73) Starting phase
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type int) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.recording_detail' (type int) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \router_env::build_phase  at router_env.sv:39
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.i_agent.seqr.main_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) set by uvm_test_top.env = (class uvm_pkg::uvm_object_wrapper) ?
+#0 in \uvm_agent::build_phase  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/comps/uvm_agent.svh:61
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/comps/uvm_agent.svh:62
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type bit) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/comps/uvm_agent.svh:63
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type int) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.rsp_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.rsp_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.rsp_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.rsp_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.req_fifo = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_ap.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_ap.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.seq_item_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.seq_item_export.recording_detail' (type int) read by uvm_test_top.env.i_agent.seqr.seq_item_export = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.seq_item_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.recording_detail' (type int) read by uvm_test_top.env.i_agent.drv = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.sqr_pull_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.sqr_pull_port = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.sqr_pull_port.recording_detail' (type int) read by uvm_test_top.env.i_agent.drv.sqr_pull_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.sqr_pull_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.sqr_pull_port = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1763
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.rsp_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.rsp_port = null (failed lookup)
+#0 in \uvm_component::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_component.svh:1764
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.rsp_port.recording_detail' (type int) read by uvm_test_top.env.i_agent.drv.rsp_port = null (failed lookup)
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.rsp_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.rsp_port = null (failed lookup)
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.build' (id=73) Completed phase
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.connect' (id=85) Scheduled from phase common.build
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.connect' (id=85) Starting phase
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.connect' (id=85) Completed phase
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.end_of_elaboration' (id=97) Scheduled from phase common.connect
+#0 in \uvm_root::run_test  at /remote/vtgimages/SAFE/linux_RH4_AMD64_TD_32/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.end_of_elaboration' (id=97) Starting phase

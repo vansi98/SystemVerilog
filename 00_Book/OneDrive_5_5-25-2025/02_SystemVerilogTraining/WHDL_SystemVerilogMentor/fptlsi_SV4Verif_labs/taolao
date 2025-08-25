@@ -1,0 +1,13 @@
+\rm -rf ./class/.solution
+\rm -rf ./fsm_cover/.solution
+\rm -rf ./interface/.solution
+\rm -rf ./mboxes/.solution
+\rm -rf ./polymorph/.solution
+\rm -rf ./Router/coverage/.solution
+\rm -rf ./Router/oop/.solution
+\rm -rf ./Router/random/.solution
+\rm -rf ./Router/virtual_interface/.solution
+\rm -rf ./sparse_mem/.solution
+\rm -rf ./sva_q/sva_multi_clk/.solution
+\rm -rf ./sva_q/sva_pipe/.solution
+\rm -rf ./sva_q/sva_uart_xmit/.solution

@@ -1,0 +1,196 @@
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type logic signed[4095:0]) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type int) read by uvm_test_top = null (failed lookup)
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common' (id=55) Starting phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common' (id=55) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.build' (id=73) Scheduled from phase common
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.build' (id=73) Starting phase
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type int) read by uvm_test_top.env = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.recording_detail' (type int) read by uvm_test_top.cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.cfg.agt_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.recording_detail' (type int) read by uvm_test_top.cfg.agt_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.seqr_cfg.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.cfg.agt_cfg.seqr_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.seqr_cfg.recording_detail' (type int) read by uvm_test_top.cfg.agt_cfg.seqr_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.drv_cfg.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.cfg.agt_cfg.drv_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.drv_cfg.recording_detail' (type int) read by uvm_test_top.cfg.agt_cfg.drv_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.mon_cfg.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.cfg.agt_cfg.mon_cfg = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.cfg.agt_cfg.mon_cfg.recording_detail' (type int) read by uvm_test_top.cfg.agt_cfg.mon_cfg = null (failed lookup)
+#0 in \test_base::build_phase  at test_collection.sv:32
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.cfg' (type class test.env_config) set by uvm_test_top = (class test.env_config) 
+--------------------------------------------
+Name               Type         Size  Value 
+--------------------------------------------
+cfg                env_config   -     @515  
+  agt_cfg          agt_config   -     @523  
+    drv_cfg        comp_config  -     @539  
+      timeout      integral     32    'd1000
+      port_number  integral     4     'd5   
+    mon_cfg        comp_config  -     @547  
+      timeout      integral     32    'd10  
+      port_number  integral     4     'd3   
+    seqr_cfg       comp_config  -     @531  
+      timeout      integral     32    'd100 
+      port_number  integral     4     10    
+--------------------------------------------
+
+#0 in \environment::build_phase  at test_collection.sv:76
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.cfg' (type class test.env_config) read by uvm_test_top.env = (class test.env_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+cfg                  env_config   -     @515  
+  agt_cfg            agt_config   -     @523  
+    drv_cfg          comp_config  -     @539  
+      timeout        integral     32    'd1000
+      port_number    integral     4     'd5   
+    mon_cfg          comp_config  -     @547  
+      timeout        integral     32    'd10  
+      port_number    integral     4     'd3   
+    seqr_cfg         comp_config  -     @531  
+      timeout        integral     32    'd100 
+      port_number    integral     4     10    
+----------------------------------------------
+
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.recording_detail' (type int) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \environment::build_phase  at test_collection.sv:78
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.agt.cfg' (type class test.agt_config) set by uvm_test_top.env = (class test.agt_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+agt_cfg              agt_config   -     @523  
+  drv_cfg            comp_config  -     @539  
+    timeout          integral     32    'd1000
+    port_number      integral     4     'd5   
+  mon_cfg            comp_config  -     @547  
+    timeout          integral     32    'd10  
+    port_number      integral     4     'd3   
+  seqr_cfg           comp_config  -     @531  
+    timeout          integral     32    'd100 
+    port_number      integral     4     10    
+----------------------------------------------
+
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/comps/uvm_agent.svh:61
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.is_active' (type logic signed[4095:0]) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/comps/uvm_agent.svh:62
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.is_active' (type bit) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/comps/uvm_agent.svh:63
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.is_active' (type int) read by uvm_test_top.env.agt = null (failed lookup)
+#0 in \agent::build_phase  at test_collection.sv:107
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.cfg' (type class test.agt_config) read by uvm_test_top.env.agt = (class test.agt_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+agt_cfg              agt_config   -     @523  
+  drv_cfg            comp_config  -     @539  
+    timeout          integral     32    'd1000
+    port_number      integral     4     'd5   
+  mon_cfg            comp_config  -     @547  
+    timeout          integral     32    'd10  
+    port_number      integral     4     'd3   
+  seqr_cfg           comp_config  -     @531  
+    timeout          integral     32    'd100 
+    port_number      integral     4     10    
+----------------------------------------------
+
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.seqr.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.agt.seqr = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.seqr.recording_detail' (type int) read by uvm_test_top.env.agt.seqr = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.drv.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.agt.drv = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.drv.recording_detail' (type int) read by uvm_test_top.env.agt.drv = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.agt.mon = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_component.svh:1769
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.mon.recording_detail' (type int) read by uvm_test_top.env.agt.mon = null (failed lookup)
+#0 in \agent::build_phase  at test_collection.sv:111
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.agt.seqr.cfg' (type class test.comp_config) set by uvm_test_top.env.agt = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+seqr_cfg             comp_config  -     @531  
+  timeout            integral     32    'd100 
+  port_number        integral     4     10    
+----------------------------------------------
+
+#0 in \agent::build_phase  at test_collection.sv:112
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.agt.drv.cfg' (type class test.comp_config) set by uvm_test_top.env.agt = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+drv_cfg              comp_config  -     @539  
+  timeout            integral     32    'd1000
+  port_number        integral     4     'd5   
+----------------------------------------------
+
+#0 in \agent::build_phase  at test_collection.sv:113
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.agt.mon.cfg' (type class test.comp_config) set by uvm_test_top.env.agt = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+mon_cfg              comp_config  -     @547  
+  timeout            integral     32    'd10  
+  port_number        integral     4     'd3   
+----------------------------------------------
+
+#0 in \driver::build_phase  at test_collection.sv:152
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.drv.cfg' (type class test.comp_config) read by uvm_test_top.env.agt.drv = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+drv_cfg              comp_config  -     @539  
+  timeout            integral     32    'd1000
+  port_number        integral     4     'd5   
+----------------------------------------------
+
+#0 in \monitor::build_phase  at test_collection.sv:166
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.mon.cfg' (type class test.comp_config) read by uvm_test_top.env.agt.mon = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+mon_cfg              comp_config  -     @547  
+  timeout            integral     32    'd10  
+  port_number        integral     4     'd3   
+----------------------------------------------
+
+#0 in \sequencer::build_phase  at test_collection.sv:138
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.agt.seqr.cfg' (type class test.comp_config) read by uvm_test_top.env.agt.seqr = (class test.comp_config) 
+----------------------------------------------
+Name                 Type         Size  Value 
+----------------------------------------------
+seqr_cfg             comp_config  -     @531  
+  timeout            integral     32    'd100 
+  port_number        integral     4     10    
+----------------------------------------------
+
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.build' (id=73) Completed phase
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.connect' (id=85) Scheduled from phase common.build
+#0 in \uvm_root::run_test  at /global/apps5/vcs_2012.09-1/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.connect' (id=85) Starting phase

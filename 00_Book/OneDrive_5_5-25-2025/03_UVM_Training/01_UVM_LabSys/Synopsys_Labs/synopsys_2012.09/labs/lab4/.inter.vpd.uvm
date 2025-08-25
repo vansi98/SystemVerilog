@@ -1,0 +1,224 @@
+#0 in unnamed$$_10 at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/vcs/uvm_custom_install_vcs_recorder.sv:47
+@ 0: [CFGDB/SET] Configuration '*.recording_detail' (type logic signed[4095:0]) set by  = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.recording_detail' (type logic signed[4095:0]) read by uvm_test_top = (uvm_bitstream_t) 110010000
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common' (id=55) Starting phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common' (id=55) Completed phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.build' (id=73) Scheduled from phase common
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.build' (id=73) Starting phase
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env = (uvm_bitstream_t) 110010000
+#0 in \test_base::build_phase  at test_collection.sv:35
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.i_agent.sigs' (type virtual interface router_tb_io) set by uvm_test_top = (virtual interface router_tb_io) ?
+#0 in \test_base::build_phase  at test_collection.sv:36
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.r_agent.sigs' (type virtual interface reset_tb_io) set by uvm_test_top = (virtual interface reset_tb_io) ?
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent = (uvm_bitstream_t) 110010000
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:61
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:62
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type bit) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:63
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.is_active' (type int) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.rsp_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.rsp_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.rsp_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.req_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.seq_item_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.seq_item_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.seq_item_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.seqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.sqr_pull_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.sqr_pull_port = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.sqr_pull_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.sqr_pull_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.rsp_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.rsp_port = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.packet,test.packet))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.drv.rsp_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.i_agent.drv.rsp_port = null (failed lookup)
+#0 in \driver::build_phase  at driver.sv:71
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.port_id' (type int) read by uvm_test_top.env.i_agent = null (failed lookup)
+#0 in \driver::build_phase  at driver.sv:75
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.sigs' (type virtual interface router_tb_io) read by uvm_test_top.env.i_agent = (virtual interface router_tb_io) ?
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:60
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.r_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:61
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.is_active' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:62
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.is_active' (type bit) read by uvm_test_top.env.r_agent = null (failed lookup)
+#0 in \uvm_agent::build_phase  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/comps/uvm_agent.svh:63
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.is_active' (type int) read by uvm_test_top.env.r_agent = null (failed lookup)
+#0 in \reset_agent::build_phase  at reset_agent.sv:27
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.is_active' (type enum uvm_pkg::uvm_active_passive_enum) read by uvm_test_top.env.r_agent = null (failed lookup)
+#0 in \reset_agent::build_phase  at reset_agent.sv:30
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.sigs' (type virtual interface reset_tb_io) read by uvm_test_top.env.r_agent = (virtual interface reset_tb_io) ?
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.rsp_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.rsp_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.rsp_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.rsp_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.analysis_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.sqr_rsp_analysis_fifo.analysis_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.put_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.put_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.put_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.put_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.get_peek_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.get_peek_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.get_peek_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.get_peek_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.put_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.put_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.put_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.put_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.get_ap.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.get_ap = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.req_fifo.get_ap.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.req_fifo.get_ap = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.seq_item_export.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.seq_item_export = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.seq_item_export.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.seqr.seq_item_export = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.drv = (uvm_bitstream_t) 110010000
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.sqr_pull_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.drv.sqr_pull_port = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_sqr_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.sqr_pull_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.drv.sqr_pull_port = null (failed lookup)
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.rsp_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.drv.rsp_port = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.rsp_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.drv.rsp_port = null (failed lookup)
+#0 in \reset_agent::build_phase  at reset_agent.sv:38
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.r_agent.drv.sigs' (type virtual interface reset_tb_io) set by uvm_test_top.env.r_agent = (virtual interface reset_tb_io) ?
+#0 in \reset_agent::build_phase  at reset_agent.sv:39
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.r_agent.seqr.sigs' (type virtual interface reset_tb_io) set by uvm_test_top.env.r_agent = (virtual interface reset_tb_io) ?
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.mon.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.mon = (uvm_bitstream_t) 110010000
+#0 in \reset_agent::build_phase  at reset_agent.sv:42
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.r_agent.mon.sigs' (type virtual interface reset_tb_io) set by uvm_test_top.env.r_agent = (virtual interface reset_tb_io) ?
+#0 in \reset_driver::build_phase  at reset_agent.sv:75
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.drv.sigs' (type virtual interface reset_tb_io) read by uvm_test_top.env.r_agent.drv = (virtual interface reset_tb_io) ?
+#0 in \reset_monitor::build_phase  at reset_agent.sv:117
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.mon.sigs' (type virtual interface reset_tb_io) read by uvm_test_top.env.r_agent.mon = (virtual interface reset_tb_io) ?
+#0 in \uvm_component::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_component.svh:1768
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.mon.analysis_port.recording_detail' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.mon.analysis_port = (uvm_bitstream_t) 110010000
+#0 in \uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(test.reset_tr,test.reset_tr))::new  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_port_base.svh:243
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.mon.analysis_port.check_connection_relationships' (type logic signed[4095:0]) read by uvm_test_top.env.r_agent.mon.analysis_port = null (failed lookup)
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.build' (id=73) Completed phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.connect' (id=85) Scheduled from phase common.build
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.connect' (id=85) Starting phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.connect' (id=85) Completed phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.end_of_elaboration' (id=97) Scheduled from phase common.connect
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.end_of_elaboration' (id=97) Starting phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.end_of_elaboration' (id=97) Completed phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.start_of_simulation' (id=109) Scheduled from phase common.end_of_elaboration
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.start_of_simulation' (id=109) Starting phase
+#0 in \router_env::start_of_simulation_phase  at router_env.sv:37
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.i_agent.seqr.main_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) set by uvm_test_top.env = (class uvm_pkg::uvm_object_wrapper) ?
+#0 in \router_env::start_of_simulation_phase  at router_env.sv:38
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.r_agent.seqr.reset_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) set by uvm_test_top.env = (class uvm_pkg::uvm_object_wrapper) ?
+#0 in \router_env::start_of_simulation_phase  at router_env.sv:47
+@ 0: [CFGDB/SET] Configuration 'uvm_test_top.env.i_agent.seqr.reset_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) set by uvm_test_top.env = (class uvm_pkg::uvm_object_wrapper) ?
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/DONE] Phase 'common.start_of_simulation' (id=109) Completed phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'common.run' (id=121) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/SCHEDULED] Phase 'uvm' (id=170) Scheduled from phase common.start_of_simulation
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'common.run' (id=121) Starting phase
+#0 in \uvm_root::run_test  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/base/uvm_root.svh:395
+@ 0: [PH/TRC/STRT] Phase 'uvm' (id=170) Starting phase
+#0 in \uvm_sequencer_base::start_phase_sequence  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/seq/uvm_sequencer_base.svh:1370
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.run_phase.default_sequence' (type class uvm_pkg::uvm_sequence_base) read by uvm_test_top.env.i_agent.seqr = null (failed lookup)
+#0 in \uvm_sequencer_base::start_phase_sequence  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/seq/uvm_sequencer_base.svh:1373
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.i_agent.seqr.run_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) read by uvm_test_top.env.i_agent.seqr = null (failed lookup)
+#0 in \uvm_sequencer_base::start_phase_sequence  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/seq/uvm_sequencer_base.svh:1370
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.run_phase.default_sequence' (type class uvm_pkg::uvm_sequence_base) read by uvm_test_top.env.r_agent.seqr = null (failed lookup)
+#0 in \uvm_sequencer_base::start_phase_sequence  at /global/apps4/vcs_2012.09-3/etc/uvm-1.1/seq/uvm_sequencer_base.svh:1373
+@ 0: [CFGDB/GET] Configuration 'uvm_test_top.env.r_agent.seqr.run_phase.default_sequence' (type class uvm_pkg::uvm_object_wrapper) read by uvm_test_top.env.r_agent.seqr = null (failed lookup)

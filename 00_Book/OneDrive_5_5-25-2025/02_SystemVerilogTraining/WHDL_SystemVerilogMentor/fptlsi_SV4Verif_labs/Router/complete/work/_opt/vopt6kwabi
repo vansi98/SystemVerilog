@@ -1,0 +1,191 @@
+m255
+K3
+cModel Technology Builtin Library
+13
+dD:\qa\buildsites\6.3c\builds\win32\modeltech
+Xmti_cstdlib
+Z0 M1 work std
+Z1 DX work std WnQ=;W1X^o9K1PIQTgInR3
+VE3gIC]50c7DOddh?92KmR2
+Z2 OL;L;6.3c;37
+r1
+31
+Z3 OP;L;6.3c;37
+IE3gIC]50c7DOddh?92KmR2
+S1
+Z4 d$MODEL_TECH/..
+Z5 w1189569898
+Z6 8verilog_src/dpi_cpack/dpi_cpackages.sv
+Z7 Fverilog_src/dpi_cpack/dpi_cpackages.sv
+L0 17
+Z8 OE;L;6.3c;37
+Z9 o-sv -s -work sv_std -dirpath $MODEL_TECH/.. -L mtiAvm
+!s85 0
+XMTI_CSTDLIB
+Z10 M1 work STD
+Z11 DX work STD FVkfYOj9DhHg15CI8UmRZ1
+VT[]>dIhj:ZX2:S>Qb<:@j0
+R2
+r1
+31
+R3
+IT[]>dIhj:ZX2:S>Qb<:@j0
+S1
+R4
+R5
+R6
+R7
+L0 17
+R8
+Z12 o-u -sv -s -work sv_std -dirpath $MODEL_TECH/.. -L mtiAvm
+n@m@t@i_@c@s@t@d@l@i@b
+!s85 0
+!s86 1
+Xmti_cstring
+Z13 M1 work std
+R1
+V:m:cBGzO>[[XZK0S`hD4^2
+R2
+r1
+31
+R3
+I:m:cBGzO>[[XZK0S`hD4^2
+S1
+R4
+R5
+R6
+R7
+L0 28
+R8
+R9
+!s85 0
+XMTI_CSTRING
+R10
+R11
+VHNLc?jK1AhPdMl^Rm9j>]3
+R2
+r1
+31
+R3
+IHNLc?jK1AhPdMl^Rm9j>]3
+S1
+R4
+R5
+R6
+R7
+L0 28
+R8
+R12
+n@m@t@i_@c@s@t@r@i@n@g
+!s85 0
+!s86 1
+Xmti_fli
+R13
+R1
+VW?1Km:GYYn1@Q`PE_aZ[20
+R2
+r1
+31
+R3
+IW?1Km:GYYn1@Q`PE_aZ[20
+S1
+R4
+R5
+R6
+R7
+L0 4
+R8
+R9
+!s85 0
+XMTI_FLI
+R10
+R11
+VLY8E99H8=df@BFW>WZR100
+R2
+r1
+31
+R3
+ILY8E99H8=df@BFW>WZR100
+S1
+R4
+R5
+R6
+R7
+L0 4
+R8
+R12
+n@m@t@i_@f@l@i
+!s85 0
+!s86 1
+Xmti_scdpi
+R13
+R1
+Vk03:T0EaL[dcPD6hRd1]00
+R2
+r1
+31
+R3
+Ik03:T0EaL[dcPD6hRd1]00
+S1
+R4
+R5
+Z14 8verilog_src/dpi_cpack/scdpi.sv
+Z15 Fverilog_src/dpi_cpack/scdpi.sv
+L0 1
+R8
+R9
+!s85 0
+XMTI_SCDPI
+R10
+R11
+V1Qc33hdLEEFD]__MYKWzZ1
+R2
+r1
+31
+R3
+I1Qc33hdLEEFD]__MYKWzZ1
+S1
+R4
+R5
+R14
+R15
+L0 1
+R8
+R12
+n@m@t@i_@s@c@d@p@i
+!s85 0
+!s86 1
+Xstd
+VWnQ=;W1X^o9K1PIQTgInR3
+R2
+r1
+31
+R3
+IWnQ=;W1X^o9K1PIQTgInR3
+S1
+R4
+R5
+Z16 8verilog_src/std/std.sv
+Z17 Fverilog_src/std/std.sv
+L0 6
+R8
+R9
+!s85 0
+XSTD
+VFVkfYOj9DhHg15CI8UmRZ1
+R2
+r1
+31
+R3
+IFVkfYOj9DhHg15CI8UmRZ1
+S1
+R4
+R5
+R16
+R17
+L0 6
+R8
+R12
+n@s@t@d
+!s85 0
+!s86 1
