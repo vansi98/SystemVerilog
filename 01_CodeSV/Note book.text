@@ -1,0 +1,13 @@
++ Bit là kiểu unsigned , và byte là kiểu signed
++ var là từ khóa khai báo biến, khi không cung cấp kiểu dữ liệu thì 
+    thì hiểu mặc định là kiểu logic, 
+    ==> var x; // mặc định là logic
+    ==> var int y;      // int
+Xem lại chương 2.3 Net, chưa hiểu nhiều về Net
+Xem lại chương 2.4, 2.5, 2.7
+
++ Default initial values of variabls and Net
+    4-state variable: ‘x
+    2-state variable: ‘0
+    real, shortreal: ‘0.0
+    wire/tri: ‘z
