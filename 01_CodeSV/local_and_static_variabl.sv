@@ -23,5 +23,6 @@ endmodule
 module next;
     initial begin
     $display("Statically declared 'n' in module 'next' = %0d",$unit::n);
+    $display("Statically declared 'n' in module 'next' = %0d",$unit::n);
 end
 endmodule
