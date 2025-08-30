@@ -1,7 +1,6 @@
 // Command build
 verilator --binary test.sv tb.sv --top tb
 verilator --binary <ten file.sv> --top <ten module trong file.sv>
-
 // Run 
 ./obj_dir/Vtb
 
