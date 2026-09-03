@@ -26,7 +26,7 @@ VL_ATTR_COLD void Venum_method___024root___eval_initial__TOP(Venum_method___024r
     Venum_method__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    VL_WRITEF_NX("Number of members in Colors = 3\n",0);
+    VL_WRITEF_NX("Number of members in Colors = 3\nFirst member in Colors = 0\n",0);
 }
 
 VL_ATTR_COLD void Venum_method___024root___eval_final(Venum_method___024root* vlSelf) {
